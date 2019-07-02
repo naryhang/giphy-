@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GIFtastic Foods</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">What is your favorite food?</h1>
+        <br>
+        <br>
+        
+        <div id="food-buttons"> </div>
+        <br>
+        <br>
+        
+        <div class="container" id="btn">
+        
+        <form id="food-form">
+        <label id="add" for="food-input">Please enter your favorite food:</label>
+        <input type="text" class="form-control" id="food-input">
+        <br>
+        </form>
+       
+        <button onclick="submitButtonClicked()" type="button" id="add-food" class="btn btn-success">Submit</button>
+        <br>
+        <br>
+        
+        <div id="foods"> </div>
+        
+        </div>
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="gif.js"></script>
+</body>
+
+</html>
